@@ -24,4 +24,11 @@ steps:
 - script: npm run test-demo-ui-cr-hd-api
   displayName: 'Run Tests'
 
+- script: |
+    echo "Current directory:"
+    pwd
+    echo "Listing files:"
+    ls -R
+  displayName: Debug Paths
+
 
