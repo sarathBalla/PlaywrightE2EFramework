@@ -6,7 +6,8 @@
 #trigger:
 #- main
 #--------------------------------- Triggering or sceduling the Pipline Automatically --------------------------------------
-#Trigeering or sceduling using time everyday night by using YAML file 
+#Trigeering or sceduling using time everyday night by using YAML file this is oneway
+#Second way triggers and give time and Days and all details this is most prefer way
 schedules:
 # This is UTC time 2:40 AM
   - cron: "10 21 * * *"
